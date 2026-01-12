@@ -97,8 +97,7 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Computer Science Engineer • Full Stack Developer •
-            Security-Conscious Systems
+            Computer Science • Full Stack Develoment • Cyber Security
           </motion.p>
 
           {/* Contact info */}
