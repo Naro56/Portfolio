@@ -41,19 +41,19 @@ export default function ContactSection() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/naresh-p-v-a3a7692a1/",
       color: "hover:bg-blue-600",
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/Naro56",
       color: "hover:bg-slate-700",
     },
     {
       icon: Code2,
       label: "LeetCode",
-      href: "https://leetcode.com",
+      href: "https://leetcode.com/u/NARESH_P_V/",
       color: "hover:bg-orange-600",
     },
   ];

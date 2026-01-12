@@ -23,9 +23,9 @@ export default function HeroSection() {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: Github, label: "GitHub", href: "https://github.com" },
-    { icon: Code2, label: "LeetCode", href: "https://leetcode.com" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/naresh-p-v-a3a7692a1/" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Naro56" },
+    { icon: Code2, label: "LeetCode", href: "https://leetcode.com/u/NARESH_P_V/" },
   ];
 
   return (

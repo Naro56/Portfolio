@@ -230,57 +230,6 @@ export default function WorkTogetherSection() {
                 />
               </motion.div>
 
-              {/* Budget and Timeline */}
-              <div className="grid md:grid-cols-2 gap-6">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.5 }}
-                >
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
-                    Budget Range
-                  </label>
-                  <select
-                    name="budget"
-                    value={formData.budget}
-                    onChange={handleChange}
-                    className={inputClasses}
-                  >
-                    <option value="">Select budget range</option>
-                    <option value="under-5k">Under $5,000</option>
-                    <option value="5k-10k">$5,000 - $10,000</option>
-                    <option value="10k-25k">$10,000 - $25,000</option>
-                    <option value="25k-50k">$25,000 - $50,000</option>
-                    <option value="50k+">$50,000+</option>
-                  </select>
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.55 }}
-                >
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
-                    Timeline
-                  </label>
-                  <select
-                    name="timeline"
-                    value={formData.timeline}
-                    onChange={handleChange}
-                    className={inputClasses}
-                  >
-                    <option value="">Select timeline</option>
-                    <option value="asap">ASAP (1-2 weeks)</option>
-                    <option value="1-month">1 Month</option>
-                    <option value="2-3-months">2-3 Months</option>
-                    <option value="3-6-months">3-6 Months</option>
-                    <option value="flexible">Flexible</option>
-                  </select>
-                </motion.div>
-              </div>
-
               {/* Additional Message */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
