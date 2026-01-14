@@ -9,8 +9,8 @@ export default function WorkTogetherSection() {
     email: "",
     projectTitle: "",
     projectDetails: "",
-    budget: "",
-    timeline: "",
+    // budget: "",
+    // timeline: "",
     message: "",
   });
 
@@ -51,8 +51,8 @@ export default function WorkTogetherSection() {
         email: "",
         projectTitle: "",
         projectDetails: "",
-        budget: "",
-        timeline: "",
+        // budget: "",
+        // timeline: "",
         message: "",
       });
       setSubmitted(true);
