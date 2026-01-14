@@ -234,11 +234,17 @@ export default function ProjectsSection() {
                   {/* Header */}
                   <div className="flex items-start justify-between mb-6">
                     <div
-                      className={`p-4 rounded-xl bg-gradient-to-br ${project.gradient} shadow-lg ${
+                      className={`p-4 rounded-xl bg-gradient-to-br ${
+                        project.gradient
+                      } shadow-lg ${
                         project.isCapstone ? "scale-110" : ""
                       } transition-transform`}
                     >
-                      <project.icon className={`text-white ${project.isCapstone ? "w-8 h-8" : "w-6 h-6"}`} />
+                      <project.icon
+                        className={`text-white ${
+                          project.isCapstone ? "w-8 h-8" : "w-6 h-6"
+                        }`}
+                      />
                     </div>
                     <motion.div
                       animate={{
@@ -251,9 +257,11 @@ export default function ProjectsSection() {
                   </div>
 
                   {/* Title & Description */}
-                  <h3 className={`font-bold text-white mb-3 group-hover:text-blue-300 transition-colors ${
-                    project.isCapstone ? "text-3xl md:text-4xl" : "text-xl"
-                  }`}>
+                  <h3
+                    className={`font-bold text-white mb-3 group-hover:text-blue-300 transition-colors ${
+                      project.isCapstone ? "text-3xl md:text-4xl" : "text-xl"
+                    }`}
+                  >
                     {project.title}
                   </h3>
                   {project.isCapstone && (
@@ -261,9 +269,11 @@ export default function ProjectsSection() {
                       Featured Capstone Project
                     </p>
                   )}
-                  <p className={`text-slate-400 leading-relaxed mb-6 ${
-                    project.isCapstone ? "text-base" : "text-sm"
-                  }`}>
+                  <p
+                    className={`text-slate-400 leading-relaxed mb-6 ${
+                      project.isCapstone ? "text-base" : "text-sm"
+                    }`}
+                  >
                     {project.description}
                   </p>
 
@@ -323,7 +333,7 @@ export default function ProjectsSection() {
                         : "Click to see details"}
                     </p>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Naro56?tab=repositories"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-blue-400 hover:text-blue-300 hover:bg-blue-500/10 rounded-lg transition-all duration-300"
@@ -349,7 +359,7 @@ export default function ProjectsSection() {
           transition={{ delay: 0.5 }}
         >
           <a
-            href="https://github.com"
+            href="https://github.com/Naro56"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-slate-900 to-slate-800 border border-slate-700 hover:border-blue-500/50 text-white font-medium transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10"
